@@ -8,7 +8,7 @@ import edu.berkeley.cs186.database.recovery.LogType;
 import java.util.Objects;
 import java.util.Optional;
 
-public class CommitTransactionLogRecord extends LogRecord {
+public class  CommitTransactionLogRecord extends LogRecord {
     private long transNum;
     private long prevLSN;
 
